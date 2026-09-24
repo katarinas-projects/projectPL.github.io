@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Submit a Question | Project PL</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="site-header"><a class="brand" href="index.html"><span>PROJECT</span> PL</a><button class="menu-toggle">☰</button><nav><a href="investigations.html">Investigations</a><a href="resources.html">Resources</a><a href="interviews.html">Interviews</a><a href="documents.html">Documents</a><a class="nav-button" href="question.html">Submit a Question</a></nav></header>
+<main><section class="page-hero"><span class="eyebrow">PROJECT PL / 05</span><h1>What do you want to know?</h1><p>Have a question about Prior Lake High School? Send it to Project PL. You can submit anonymously.</p></section>
+<section class="section"><div class="form-card">
+<form onsubmit="submitQuestion(event)">
+<label>Your question<textarea id="question" required placeholder="What have you always wondered about PLHS?"></textarea></label>
+<label>Your name <span class="optional">(optional)</span><input id="name" placeholder="Leave blank to remain anonymous"></label>
+<label>Your email <span class="optional">(optional)</span><input id="email" type="email" placeholder="Only if you want us to follow up"></label>
+<button class="button dark" type="submit">Submit question →</button>
+<p id="formMessage" class="form-message"></p>
+</form>
+</div></section></main>
+<footer><div><a class="brand" href="index.html"><span>PROJECT</span> PL</a><p>Student-led research about Prior Lake High School.</p></div><div class="footer-links"><a href="about.html">About</a><a href="documents.html">Documents</a></div><p class="copyright">© 2026 Project PL</p></footer><script src="script.js"></script></body></html>
